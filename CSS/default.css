@@ -1,0 +1,84 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #4a3333;
+}
+
+.container{
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 650px;
+}
+
+.header {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Header Section */
+.img-frame{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 0 0 10px 0;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img-frame img {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height: 100%;
+}
+
+/* Title Section */
+.title-details{
+    padding: 50px;
+}
+
+.header-name{
+    font-size: 40px;
+    color: #d49400;
+}
+.header-title{
+    font-size: 25px;
+    font-style: italic;
+    color: #d4c8ae;
+    text-align: right;
+}
+.mail-icon
+{
+    height: 15px;
+    width: 20px;
+    padding-right:5px;
+    font-style:italic;
+}
+.contact{
+    color:white;
+    font:10px;
+    padding-top: 10px;
+    text-align: right;
+}
+
+/* Social Links */
+.social-links{
+    padding: 5px;
+    text-align: right;
+
+}
+.link{
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+}
+
+.social-links a:hover{
+    border-width: 20px;
+    border-color: #d4c8ae;
+}
